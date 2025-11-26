@@ -1,0 +1,7 @@
+# IBM WatsonX
+WATSONX_API_KEY= AoCdVC5DljGbaIc5YOrTHXOgsY9t0FlB9c8cyv8sNDNw
+WATSONX_URL= https://us-south.ml.cloud.ibm.com
+WATSONX_PROJECT_ID= 668b9443-ac6f-42b5-9a76-8848bf9db983
+
+# USDA FoodData Central
+USDA_API_KEY = DhlNnhRkfmkVpxxqh1BfzYj2UJDXduJtWb84agIt

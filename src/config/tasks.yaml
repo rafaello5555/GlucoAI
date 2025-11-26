@@ -1,0 +1,52 @@
+
+  analyze_food:
+    description: >
+      Analyze the provided food item (text description, barcode, or image).
+      Extract carbs, sugar, calories, glycemic load, fiber, and estimated glucose impact.
+      Provide a clear diabetic safety score and offer safer alternatives if needed.
+    expected_output: >
+      A detailed breakdown of nutrition, glycemic effect, and diabetic-friendly guidance.
+    agent: food_analysis_agent
+
+  generate_meal_plan:
+    description: >
+      Generate a diabetic-safe meal plan based on user preferences (keto, vegan,
+      vegetarian, low-carb) and carb limits. Include breakfast, lunch, dinner,
+      and snacks with carb counts and portion sizes.
+    expected_output: >
+      A full meal plan with recipes, carb counts, and preparation steps.
+    agent: meal_planner_agent
+
+  predict_glucose:
+    description: >
+      Predict post-meal glucose levels based on carbohydrate intake, meal timing,
+      user history, and glucose patterns. Provide a safe, non-medical explanation
+      of potential glucose rise or fall.
+    expected_output: >
+      A glucose prediction curve or estimate (e.g., 'expected rise of +35 mg/dL in 1 hour'),
+      plus suggestions to reduce spikes.
+    agent: glucose_prediction_agent
+
+  recommend_groceries:
+    description: >
+      Review the user's shopping list or grocery items and identify foods that may
+      spike glucose. Provide diabetic-safe alternatives and organize a shopping list.
+    expected_output: >
+      A diabetic-safe shopping list with alternatives, product suggestions, and carb/sugar warnings.
+    agent: shopping_assistant_agent
+
+  activity_guidance:
+    description: >
+      Provide exercise recommendations customized to the user's current glucose level,
+      recent meals, energy level, and fitness goals. Warn if risks of hypo/hyperglycemia exist.
+    expected_output: >
+      A safe exercise plan with timing, duration, and glucose precautions.
+    agent: activity_coach_agent
+
+  track_habits:
+    description: >
+      Analyze the user's logged habits (meals, glucose, activity, sleep, water intake) and summarize trends.
+      Provide weekly insights, positive reinforcement, and improvement suggestions.
+    expected_output: >
+      A weekly summary with insights, patterns, and small personalized habit improvements.
+    agent: habit_tracker_agent
