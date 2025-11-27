@@ -167,7 +167,7 @@ pydub==0.25.1
 Pygments==2.19.1
 PyJWT==2.10.1
 pylance==0.20.0
-pypdf==5.1.0
+pypdf==6.4.0
 PyPika==0.48.9
 pyproject_hooks==1.2.0
 pyright==1.1.391
