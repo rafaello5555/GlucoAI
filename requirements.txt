@@ -222,7 +222,7 @@ types-requests==2.32.0.20241016
 typing-inspect==0.9.0
 typing_extensions==4.12.2
 tzdata==2024.2
-urllib3==2.3.0
+urllib3==2.6.0
 uv==0.5.16
 uvicorn==0.34.0
 uvloop==0.21.0
